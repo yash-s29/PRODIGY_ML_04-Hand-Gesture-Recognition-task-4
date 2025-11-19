@@ -1,45 +1,52 @@
-\\PRODIGY_ML_04-Hand-Gesture-Recognition-task-4\\
+#PRODIGY_ML_04-Hand-Gesture-Recognition-task-4#
+
 Develop a hand gesture recognition model that can accurately identify and classify different hand gestures from image or video data, enabling intuitive human-computer interaction and gesture-based control systems.
 
-Hand Gesture Recognition
-Overview
+#Hand Gesture Recognition#
+
+#Overview
 This project aims to develop a hand gesture recognition model that can accurately classify different hand gestures from images, enabling intuitive human-computer interaction. The model is trained to recognize gestures representing the letters A-Z, space, and nothing.
 
-Dataset
+#Dataset
 The dataset used for this project is the ASL Alphabet from Kaggle. It consists of images representing the American Sign Language (ASL) letters, as well as additional classes for space and nothing.
 
-Dataset Structure
+#Dataset Structure
 The dataset is organized as follows:
 
-Train/: Contains 28 images of gestures for A-Z, Space, and Nothing.
-Test/: Contains images to evaluate the model's performance.
-Technologies Used
+-Train/: Contains 28 images of gestures for A-Z, Space, and Nothing.
+
+-Test/: Contains images to evaluate the model's performance.
+
+#Technologies Used
 Python
 TensorFlow
 Keras
 NumPy
 Pandas
 OpenCV
-Installation
-Clone the repository: git clone https://github.com/kusumithasajja/PRODIGY_ML_04.git
-Change to the project directory: cd PRODIGY_ML_04
+
+#Installation
+Clone the repository: git clone https://github.com/yash-s29/PRODIGY_ML_04-Hand-Gesture-Recognition-task-4.git
+Change to the project directory: cd PRODIGY_ML_04-Hand-Gesture-Recognition-task-4
 Install the required packages: pip install -r requirements.txt
-Usage
+
+#Usage
 Prepare your images in the Train/ and Test/ folders.
 Run the script: python Hand_Gesture.py
 The predictions for the test images will be saved in submission.csv.
-Model Training
+
+#Model Training
 The model uses MobileNetV2 for transfer learning, with data augmentation applied to the training dataset. The training is performed using sparse categorical cross-entropy loss and Adam optimizer.
 
-Output
+#Output
 The final output of the model includes predictions for each test image, which are stored in submission.csv in the format: filename,label image1.png,A image2.png,B ...
 
-Contribution
+#Contribution
 Feel free to fork the repository and submit a pull request if you'd like to contribute to the project!
 
-License
+#License
 This project is licensed under the MIT License - see the LICENSE file for details.
 
-Acknowledgments
+#Acknowledgments
 Kaggle ASL Alphabet Dataset for providing the dataset used in this project.
 
