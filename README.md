@@ -19,20 +19,29 @@ The dataset is organized as follows:
 
 # Technologies Used
 Python
+
 TensorFlow
+
 Keras
+
 NumPy
+
 Pandas
+
 OpenCV
 
 # Installation
 Clone the repository: git clone https://github.com/yash-s29/PRODIGY_ML_04-Hand-Gesture-Recognition-task-4.git
+
 Change to the project directory: cd PRODIGY_ML_04-Hand-Gesture-Recognition-task-4
+
 Install the required packages: pip install -r requirements.txt
 
 # Usage
 Prepare your images in the Train/ and Test/ folders.
+
 Run the script: python Hand_Gesture.py
+
 The predictions for the test images will be saved in submission.csv.
 
 # Model Training
